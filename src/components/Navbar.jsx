@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
       <nav className="hero-section flex items-center justify-center shadow-lg">
-        <div className="flex items-center justify-between py-5 px-6 bg-gray-400 w-full max-w-[1440px]   md:px-10  hero-section">
+        <div className="flex items-center justify-between py-5 px-6  w-full max-w-[1440px]   md:px-10  hero-section">
           <div className="text-[24px] lg:text-[32px] font-bold">AR SHAKIR</div>
           <div>
             <ul className=" gap-10 xl:gap-10 font-[200] text-[20px] hidden lg:flex">
