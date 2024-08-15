@@ -1,7 +1,7 @@
 .hero-section {
-  background-color: #9fd4e9;
+  /* max-height: 50rem; */
+  overflow: hidden;
 }
-
-.hero-btn1 {
-  background-color: #4e47ba;
+.hero-img {
+  height: 40rem;
 }
