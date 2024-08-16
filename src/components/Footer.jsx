@@ -5,7 +5,7 @@ import instagram from "../assets/footer/instagram.png";
 
 function Footer() {
   return (
-    <footer className=" py-10 flex items-center justify-center">
+    <footer className=" py-10 flex items-center justify-center pb-20">
       <div className="px-6 flex flex-col gap-4 md:justify-between md:flex-row  max-w-[1440px] w-full">
         <div className="flex flex-col gap-4">
           <h1 className="text-[24px] font-bold">AR SHAKIR</h1>

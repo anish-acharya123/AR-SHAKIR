@@ -5,6 +5,7 @@ import "./App.css";
 import Partners from "./components/Partners";
 import Offers from "./components/Offers";
 import Footer from "./components/Footer";
+import Footer2 from "./components/Footer2";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Partners />
           <Offers />
           <Footer />
+          <Footer2 />
         </main>
       </BrowserRouter>
     </>
