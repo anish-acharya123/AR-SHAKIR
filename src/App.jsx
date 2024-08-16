@@ -4,17 +4,19 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import Partners from "./components/Partners";
 import Offers from "./components/Offers";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="App">
+        <main className="App">
           <Navbar />
           <Hero />
           <Partners />
           <Offers />
-        </div>
+          <Footer />
+        </main>
       </BrowserRouter>
     </>
   );
