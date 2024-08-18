@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <main className="App">
+        <main className="App overflow-hidden">
           <Navbar />
           <Hero />
           <Partners />
