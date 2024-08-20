@@ -22,8 +22,8 @@ function App() {
           <Trackpayment />
           <Transaction />
           <Features />
-          {/* <Footer />
-          <Footer2 /> */}
+          <Footer />
+          <Footer2 />
         </main>
       </BrowserRouter>
     </>
