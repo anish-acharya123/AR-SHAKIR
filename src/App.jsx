@@ -7,6 +7,7 @@ import Offers from "./components/Offers";
 import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
 import Trackpayment from "./components/Trackpayment";
+import Transaction from "./components/Transaction";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
           <Partners />
           <Offers />
           <Trackpayment />
-          <Footer />
-          <Footer2 />
+          <Transaction />
+          {/* <Footer />
+          <Footer2 /> */}
         </main>
       </BrowserRouter>
     </>

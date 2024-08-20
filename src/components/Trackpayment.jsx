@@ -6,14 +6,14 @@ import tick from "../assets/logo/tick.png";
 function Trackpayment() {
   return (
     <section className="py-16 flex items-center justify-center">
-      <div className="px-6 flex justify-between items-center  w-full max-w-[1440px] md:px-10 ">
+      <div className="px-6 flex justify-between items-center lg:gap-20  w-full max-w-[1440px] md:px-10 ">
         <figure className="hidden md:block md:w-[70%] lg:w-[50%] relative ">
           <img
             src={elemt}
             alt=""
             className="absolute right-32 -translate-y-6 "
           />
-          <img src={Track} alt="track-payment" className="" />
+          <img src={Track} alt="track-payment" className="object-contain" />
         </figure>
 
         <div className="flex flex-col gap-4 lg:w-[50%] md:w-[30%]">
@@ -25,7 +25,7 @@ function Trackpayment() {
             Indulgence way everything joy alteration boisterous the attachment.
             Party we years to order allow asked of.
           </p>
-          <hr className="bg-gray-300 h-1"/>
+          <hr className="bg-gray-300 h-1" />
           <div className=" grid gap-4">
             <div className="flex gap-2 items-center">
               <img src={tick} alt="tick" />
