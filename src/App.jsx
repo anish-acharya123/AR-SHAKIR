@@ -6,6 +6,7 @@ import Partners from "./components/Partners";
 import Offers from "./components/Offers";
 import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
+import Trackpayment from "./components/Trackpayment";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Hero />
           <Partners />
           <Offers />
+          <Trackpayment />
           <Footer />
           <Footer2 />
         </main>

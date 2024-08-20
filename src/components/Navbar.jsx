@@ -17,10 +17,10 @@ function Navbar() {
                 cross ? "translate-x-[0%]" : " hidden translate-x-[100%]"
               } z-100 absolute top-20 right-0 p-20 h-full gap-20 bg-[rgb(159,212,233)]  border-t-2 border-white flex flex-col`}
             >
-              <NavLink>Product ▾ </NavLink>
-              <NavLink>Template ▾</NavLink>
-              <NavLink>Blog</NavLink>
-              <NavLink>Pricing</NavLink>
+              <NavLink className="font-semibold">Product ▾ </NavLink>
+              <NavLink className="font-semibold">Template ▾</NavLink>
+              <NavLink className="font-semibold">Blog</NavLink>
+              <NavLink className="font-semibold">Pricing</NavLink>
             </ul>
             <div className=" lg:hidden " onClick={() => setCross(!cross)}>
               {cross ? (
