@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
 import Trackpayment from "./components/Trackpayment";
 import Transaction from "./components/Transaction";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Offers />
           <Trackpayment />
           <Transaction />
+          <Features />
           {/* <Footer />
           <Footer2 /> */}
         </main>
