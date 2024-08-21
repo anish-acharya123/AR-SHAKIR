@@ -6,6 +6,12 @@
   box-sizing: border-boxs;
   font-family: "Manrope", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #23029c #f5f1f1;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

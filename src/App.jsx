@@ -9,6 +9,7 @@ import Footer2 from "./components/Footer2";
 import Trackpayment from "./components/Trackpayment";
 import Transaction from "./components/Transaction";
 import Features from "./components/Features";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
           <Trackpayment />
           <Transaction />
           <Features />
-          <Footer />
-          <Footer2 />
+          <Testimonials />
+          {/* <Footer />
+          <Footer2 /> */}
         </main>
       </BrowserRouter>
     </>
