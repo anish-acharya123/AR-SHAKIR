@@ -1,11 +1,15 @@
 import React from "react";
 import user from "../assets/stats/user.png";
 import star from "../assets/stats/star.png";
+import element from "../assets/stats/2.png";
 
 function Stats() {
   return (
     <section className="flex items-center justify-center bg-[#3734A9] py-20">
       <div className="px-6 max-w-[1440px] w-full text-white flex flex-col md:flex-row gap-10 justify-center md:justify-between items-center ">
+        <figure className="absolute right-0 ">
+          <img src={element} alt="" />
+        </figure>
         <p className="text-[24px]">
           We speak with our <br /> powerful statistics
         </p>
@@ -31,7 +35,7 @@ function Stats() {
             <p>5-Stars Reviews</p>
           </div>
         </div>
-        <div className="flex flex-col gap-6 items-center">
+        <div className="flex flex-col gap-6 items-center z-30">
           <h2 className="text-[34px] md:text-[36px] lg:text-[52px] font-bold leading-[130%]">
             $252M
           </h2>
