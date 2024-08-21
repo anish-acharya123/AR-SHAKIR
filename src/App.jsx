@@ -13,6 +13,7 @@ import Testimonials from "./components/Testimonials";
 import Stats from "./components/Stats";
 import Blog from "./components/Blog";
 import FAQ from "./components/FAQ";
+import Getstarted from "./components/Getstarted";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Stats />
           <Blog />
           <FAQ />
+          <Getstarted />
           <Footer />
           <Footer2 />
         </main>
