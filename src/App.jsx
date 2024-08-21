@@ -10,6 +10,7 @@ import Trackpayment from "./components/Trackpayment";
 import Transaction from "./components/Transaction";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
+import Stats from "./components/Stats";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Transaction />
           <Features />
           <Testimonials />
+          <Stats />
           {/* <Footer />
           <Footer2 /> */}
         </main>
