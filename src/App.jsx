@@ -12,6 +12,7 @@ import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import Stats from "./components/Stats";
 import Blog from "./components/Blog";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
           <Testimonials />
           <Stats />
           <Blog />
-          {/* <Footer />
-          <Footer2 /> */}
+          <FAQ />
+          <Footer />
+          <Footer2 />
         </main>
       </BrowserRouter>
     </>
