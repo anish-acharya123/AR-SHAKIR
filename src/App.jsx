@@ -11,6 +11,7 @@ import Transaction from "./components/Transaction";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
 import Stats from "./components/Stats";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Features />
           <Testimonials />
           <Stats />
+          <Blog />
           {/* <Footer />
           <Footer2 /> */}
         </main>
