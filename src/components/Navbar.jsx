@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-[#9fd4e9] flex items-center justify-center shadow-lg overflow-hidden">
+      <nav className="bg-[#9fd4e9] flex items-center justify-center md:border-none border-b-2 overflow-hidden">
         <div className="flex items-center justify-between py-5 px-6  w-full max-w-[1440px]   md:px-10  ">
           <div className="text-[24px] lg:text-[32px] font-bold">AR SHAKIR</div>
           <div>
@@ -32,7 +32,7 @@ function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-6 font-semibold">
             <button>SignUp</button>
-            <button className="bg-[#4e47ba] p-4 rounded text-white hover:bg-blue-900">
+            <button className="bg-[#4e47ba] px-8 py-4  text-white hover:bg-blue-900">
               Start Free
             </button>
           </div>

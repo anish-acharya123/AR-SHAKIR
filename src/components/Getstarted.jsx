@@ -6,7 +6,7 @@ import element4 from "../assets/getstarted/element4.png";
 
 function Getstarted() {
   return (
-    <section className="flex items-center justify-center   py-36">
+    <section className="flex items-center justify-center   py-28">
       <div className="px-6 max-w-[1440px] w-full bg-[#3634a8] py-40 md:rounded-2xl flex items-center justify-center flex-col gap-8 relative">
         <h1 className="md:text-[32px] text-[18px]  font-bold text-center text-white">
           Discover a better way to <br /> manage spendings

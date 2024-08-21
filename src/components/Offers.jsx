@@ -30,9 +30,9 @@ function Offers() {
           {Offer.map((item) => (
             <div
               key={item.id}
-              className="flex relative  flex-col justify-between gap-4 text-center md:pt-28 lg:pt-28 p-10 border-2 items-center border-gray-300 rounded-[1rem]"
+              className="flex relative  flex-col justify-between gap-4 text-center md:py-32 lg:px-16 p-10 border-2 items-center border-gray-300 rounded-[1rem]"
             >
-              <span className="absolute left-5 top-5 font-semibold text-[23px}">
+              <span className="absolute left-5 top-5 font-[500] md:text-[32px]">
                 {"0" + item.id}
               </span>
               <figure>
